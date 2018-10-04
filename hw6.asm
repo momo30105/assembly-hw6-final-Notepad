@@ -1,37 +1,37 @@
-TITLE	S04353041  HW6	°O¨Æ¥»MACROª©
+TITLE	S04353041  HW6	è¨˜äº‹æœ¬MACROç‰ˆ
 ;----------------------------------------------------------------------
 INSWW		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,53		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,53		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'I'		;Åã¥Ü
+	MOV		AL,'I'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,54		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,54		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'n'		;Åã¥Ü
+	MOV		AL,'n'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,55		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,55		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'s'		;Åã¥Ü
+	MOV		AL,'s'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
@@ -39,37 +39,37 @@ INSWW		MACRO
 ENDM
 ;---------------------------------------------------------
 INSBB		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,53		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,53		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'I'		;Åã¥Ü
+	MOV		AL,'I'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,54		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,54		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'n'		;Åã¥Ü
+	MOV		AL,'n'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,55		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,55		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'s'		;Åã¥Ü
+	MOV		AL,'s'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
@@ -78,13 +78,13 @@ ENDM
 ;---------------------------------------------------------
 BACKSPACE		MACRO
 	DEC		TEXT_C
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,TEXT_R		;¦C
-	MOV		DL,TEXT_C		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,TEXT_R		;åˆ—
+	MOV		DL,TEXT_C		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,' '		;Åã¥Ü
+	MOV		AL,' '		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
@@ -92,23 +92,23 @@ BACKSPACE		MACRO
 ENDM
 ;---------------------------------------------------------
 ENTERR		MACRO
-	CMP		DH,00		;¬O²Ä0¦C¶Ü?
-	JNE		ENTER2		;¤£¬Oªº¸Ü¨ìENTER2
+	CMP		DH,00		;æ˜¯ç¬¬0åˆ—å—Ž?
+	JNE		ENTER2		;ä¸æ˜¯çš„è©±åˆ°ENTER2
 		
 FUNCOPY:
 	CMP		FUN,30H
 	JNE		FUNCUT
-	;COPYªºFUNTION:					
+	;COPYçš„FUNTION:					
 
 FUNCUT:
 	CMP		FUN,31H
 	JNE		FUNPASTE
-	;CUTªºFUNTION:	
+	;CUTçš„FUNTION:	
 
 FUNPASTE:
 	CMP		FUN,32H
 	JNE		FUNEXIT
-	;PASTEªºFUNTION:
+	;PASTEçš„FUNTION:
 
 FUNEXIT:
 	CMP		FUN,33H
@@ -117,7 +117,7 @@ FUNEXIT:
 	JMP		ENTEREND
 
 ENTER2:
-	CMP		DH,16H		;¦b¤º®e³Ì¤U¤£¯à©¹¤U
+	CMP		DH,16H		;åœ¨å…§å®¹æœ€ä¸‹ä¸èƒ½å¾€ä¸‹
 	JE		ENTEREND
 	    	DOWNARROW
 
@@ -126,19 +126,19 @@ ENTEREND:
 ENDM
 ;---------------------------------------------------------
 EXIT		MACRO
-	MOV		AX,4C00H	;µ²§ôµ{¦¡
-	INT		21H 		;INT·N«ä:©I¥s¤¤Â_°Æµ{¦¡
+	MOV		AX,4C00H	;çµæŸç¨‹å¼
+	INT		21H 		;INTæ„æ€:å‘¼å«ä¸­æ–·å‰¯ç¨‹å¼
 	 
 ENDM
 ;---------------------------------------------------------
 PRINTFUN		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,50		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,50		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,[FUN]	;Åã¥Ü
+	MOV		AL,[FUN]	;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
@@ -148,90 +148,90 @@ ENDM
 NUMLOCK		MACRO
 	MOV		AH,12H
 	INT		16H
-	AND		AL,00100000B;NUMLOCK¬OLOCK(¦³®Ä)ªº
+	AND		AL,00100000B;NUMLOCKæ˜¯LOCK(æœ‰æ•ˆ)çš„
 	JZ		NLEXIT		;
-	NLW					;­Y¬O«h¤Ï¥Õ
+	NLW					;è‹¥æ˜¯å‰‡åç™½
 	 
 NLEXIT:		
 	NLB			
 ENDM
 ;---------------------------------------------------------
 NLB			MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,59		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,59		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'N'		;Åã¥Ü
+	MOV		AL,'N'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,60		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,60		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'u'		;Åã¥Ü
+	MOV		AL,'u'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,61		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,61		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'m'		;Åã¥Ü
+	MOV		AL,'m'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,62		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,62		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'L'		;Åã¥Ü
+	MOV		AL,'L'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,63		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,63		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'o'		;Åã¥Ü
+	MOV		AL,'o'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,64		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,64		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'c'		;Åã¥Ü
+	MOV		AL,'c'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,65		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,65		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'k'		;Åã¥Ü
+	MOV		AL,'k'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
@@ -239,81 +239,81 @@ NLB			MACRO
 ENDM
 ;---------------------------------------------------------
 NLW		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,59		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,59		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'N'		;Åã¥Ü
+	MOV		AL,'N'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,60		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,60		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'u'		;Åã¥Ü
+	MOV		AL,'u'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,61		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,61		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'m'		;Åã¥Ü
+	MOV		AL,'m'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,62		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,62		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'L'		;Åã¥Ü
+	MOV		AL,'L'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,63		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,63		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'o'		;Åã¥Ü
+	MOV		AL,'o'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,64		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,64		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'c'		;Åã¥Ü
+	MOV		AL,'c'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,24		;¦C
-	MOV		DL,65		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,24		;åˆ—
+	MOV		DL,65		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'k'		;Åã¥Ü
+	MOV		AL,'k'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
@@ -323,48 +323,48 @@ NLW		MACRO
 ENDM
 ;---------------------------------------------------------
 EXITW		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,21		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,21		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'E'		;Åã¥Ü
+	MOV		AL,'E'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,70H		;¥Õ©³¶Â¦r
+	MOV		BL,70H		;ç™½åº•é»‘å­—
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,22		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,22		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'x'		;Åã¥Ü
+	MOV		AL,'x'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,23		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,23		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'i'		;Åã¥Ü
+	MOV		AL,'i'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,24		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,24		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'t'		;Åã¥Ü
+	MOV		AL,'t'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
@@ -372,48 +372,48 @@ EXITW		MACRO
 ENDM
 ;---------------------------------------------------------
 EXITB		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,21		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,21		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'E'		;Åã¥Ü
+	MOV		AL,'E'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,07H		;¶Â©³¥Õ¦r
+	MOV		BL,07H		;é»‘åº•ç™½å­—
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,22		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,22		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'x'		;Åã¥Ü
+	MOV		AL,'x'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,23		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,23		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'i'		;Åã¥Ü
+	MOV		AL,'i'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,24		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,24		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'t'		;Åã¥Ü
+	MOV		AL,'t'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
@@ -421,59 +421,59 @@ EXITB		MACRO
 ENDM
 ;---------------------------------------------------------
 PASTEW		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,13		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,13		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'P'		;Åã¥Ü
+	MOV		AL,'P'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,70H		;¥Õ©³¶Â¦r
+	MOV		BL,70H		;ç™½åº•é»‘å­—
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,14		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,14		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'a'		;Åã¥Ü
+	MOV		AL,'a'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,15		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,15		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'s'		;Åã¥Ü
+	MOV		AL,'s'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,16		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,16		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'t'		;Åã¥Ü
+	MOV		AL,'t'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,17		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,17		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'e'		;Åã¥Ü
+	MOV		AL,'e'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
@@ -481,59 +481,59 @@ PASTEW		MACRO
 ENDM
 ;---------------------------------------------------------
 PASTEB		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,13		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,13		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'P'		;Åã¥Ü
+	MOV		AL,'P'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,07H		;¶Â©³¥Õ¦r
+	MOV		BL,07H		;é»‘åº•ç™½å­—
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,14		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,14		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'a'		;Åã¥Ü
+	MOV		AL,'a'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,15		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,15		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'s'		;Åã¥Ü
+	MOV		AL,'s'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,16		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,16		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'t'		;Åã¥Ü
+	MOV		AL,'t'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,17		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,17		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'e'		;Åã¥Ü
+	MOV		AL,'e'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
@@ -541,37 +541,37 @@ PASTEB		MACRO
 ENDM
 ;---------------------------------------------------------
 CUTW		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,07		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,07		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'C'		;Åã¥Ü
+	MOV		AL,'C'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,70H		;¥Õ©³¶Â¦r
+	MOV		BL,70H		;ç™½åº•é»‘å­—
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,08		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,08		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'u'		;Åã¥Ü
+	MOV		AL,'u'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,09		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,09		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'t'		;Åã¥Ü
+	MOV		AL,'t'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
@@ -579,37 +579,37 @@ CUTW		MACRO
 ENDM
 ;---------------------------------------------------------
 CUTB		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,07		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,07		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'C'		;Åã¥Ü
+	MOV		AL,'C'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,07H		;¶Â©³¥Õ¦r
+	MOV		BL,07H		;é»‘åº•ç™½å­—
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,08		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,08		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'u'		;Åã¥Ü
+	MOV		AL,'u'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,09		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,09		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'t'		;Åã¥Ü
+	MOV		AL,'t'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
@@ -617,97 +617,97 @@ CUTB		MACRO
 ENDM
 ;---------------------------------------------------------
 COPYW		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,00		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,00		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'C'		;Åã¥Ü
+	MOV		AL,'C'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,70H		;¥Õ©³¶Â¦r
+	MOV		BL,70H		;ç™½åº•é»‘å­—
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,01		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,01		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'o'		;Åã¥Ü
+	MOV		AL,'o'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,70H		;¥Õ©³¶Â¦r
+	MOV		BL,70H		;ç™½åº•é»‘å­—
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,02		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,02		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'p'		;Åã¥Ü
+	MOV		AL,'p'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,70H		;¥Õ©³¶Â¦r
+	MOV		BL,70H		;ç™½åº•é»‘å­—
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,03		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,03		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'y'		;Åã¥Ü
+	MOV		AL,'y'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,70H		;¥Õ©³¶Â¦r
+	MOV		BL,70H		;ç™½åº•é»‘å­—
 	INT		10H
 	 
 ENDM
 ;---------------------------------------------------------
 COPYB		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,00		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,00		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'C'		;Åã¥Ü
+	MOV		AL,'C'		;é¡¯ç¤º
 	MOV		BH,00		;
-	MOV		BL,07H		;¶Â©³¥Õ¦r
+	MOV		BL,07H		;é»‘åº•ç™½å­—
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,01		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,01		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'o'		;Åã¥Ü
+	MOV		AL,'o'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,02		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,02		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'p'		;Åã¥Ü
+	MOV		AL,'p'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,03		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,03		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'y'		;Åã¥Ü
+	MOV		AL,'y'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	INT		10H
@@ -748,11 +748,11 @@ L3:
 	JMP		LLL
 LL:
 	DEC		TEXT_C
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,TEXT_R		;¦C
-	MOV		DL,TEXT_C		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,TEXT_R		;åˆ—
+	MOV		DL,TEXT_C		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 LLL:
 	 
 ENDM
@@ -791,68 +791,68 @@ R3:
 	JMP		RRR
 RR:
 	INC		TEXT_C
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,TEXT_R		;¦C
-	MOV		DL,TEXT_C		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,TEXT_R		;åˆ—
+	MOV		DL,TEXT_C		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 RRR:
 	 
 ENDM
 ;--------------------------------------------------------
 UPARROW		MACRO
 	DEC		TEXT_R
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,TEXT_R		;¦C
-	MOV		DL,TEXT_C		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,TEXT_R		;åˆ—
+	MOV		DL,TEXT_C		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 
 	 
 ENDM
 ;--------------------------------------------------------
 DOWNARROW		MACRO
 	INC		TEXT_R
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,TEXT_R		;¦C
-	MOV		DL,TEXT_C		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,TEXT_R		;åˆ—
+	MOV		DL,TEXT_C		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	 
 ENDM
 ;--------------------------------------------------------
 PTEXT		MACRO
-	CMP		AL,30H	;§PÂ_¦r¤¸¬O§_¬°¼Æ¦r 30H~39H
-	JB		P40		;­YAH<30H«h¸õ¨ìP40
+	CMP		AL,30H	;åˆ¤æ–·å­—å…ƒæ˜¯å¦ç‚ºæ•¸å­— 30H~39H
+	JB		P40		;è‹¥AH<30Hå‰‡è·³åˆ°P40
 	CMP		AL,39H	;
-	JA		P20		;­YAH>39H«h¸õ¨ìP20
+	JA		P20		;è‹¥AH>39Hå‰‡è·³åˆ°P20
 P20:
-	CMP		AL,41H	;§PÂ_¦r¤¸¬O§_¬°­^¤å¦r¥À ¤j¼g:41H~5AH  ¤p¼g:61H~7AH
-	JB		P40		;­YAH<41H«h¸õ¨ìP40
+	CMP		AL,41H	;åˆ¤æ–·å­—å…ƒæ˜¯å¦ç‚ºè‹±æ–‡å­—æ¯ å¤§å¯«:41H~5AH  å°å¯«:61H~7AH
+	JB		P40		;è‹¥AH<41Hå‰‡è·³åˆ°P40
 	CMP		AL,7AH	;
-	JA		P40		;­YAH>7AH«h¸õ¨ìA40
+	JA		P40		;è‹¥AH>7AHå‰‡è·³åˆ°A40
 	CMP		AL,5AH	;
-	JBE 	P30		;­YAH<=5AH«h¸õ¨ìA30
+	JBE 	P30		;è‹¥AH<=5AHå‰‡è·³åˆ°A30
 	CMP		AL,61H	;
-	JAE		P30		;­YAH>=61H«h¸õ¨ìA30
+	JAE		P30		;è‹¥AH>=61Hå‰‡è·³åˆ°A30
 	
 	CMP		AL,5AH	;
-	JA 		P40		;­YAH>5AH«h¸õ¨ìA40(¤j¼g¤p¼g¶¡ªº¦r¤¸¤£°µ§ïÅÜ)
+	JA 		P40		;è‹¥AH>5AHå‰‡è·³åˆ°A40(å¤§å¯«å°å¯«é–“çš„å­—å…ƒä¸åšæ”¹è®Š)
 
 P30:
 	MOV		AH,09H
-	;MOV	AL,' '		;Åã¥Ü' '
+	;MOV	AL,' '		;é¡¯ç¤º' '
 	MOV		BH,00		;
 	MOV		BL,07H		;
 	MOV		CX,01		;	
 	INT		10H			;
 	INC		TEXT_C		;
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,TEXT_R	;¦C
-	MOV		DL,TEXT_C	;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,TEXT_R	;åˆ—
+	MOV		DL,TEXT_C	;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 P40:
 	 
 ENDM
@@ -861,18 +861,18 @@ KEY			MACRO
 
 	;AH=SCAN	AL=ASCII
 	
-	CMP		AL,0E0H		;¬OExtended Key?
+	CMP		AL,0E0H		;æ˜¯Extended Key?
 	JNE		KK
 K3:
-	CMP		AH,47H		;¬OHomeÁä?
+	CMP		AH,47H		;æ˜¯Homeéµ?
 	JNE		K4
 	
-	MOV		TEXT_C,00	;¦æ
+	MOV		TEXT_C,00	;è¡Œ
 	    	RESETCUR
 	JMP		KE
 K4:
-	CMP		AH,52H		;¬OInsÁä?
-	JNE		K5			;¤£¬O,¸õ¨ìKE
+	CMP		AH,52H		;æ˜¯Inséµ?
+	JNE		K5			;ä¸æ˜¯,è·³åˆ°KE
 	CMP		INS1,00;
 	JNE		INSON
 	INC		INS1
@@ -885,89 +885,89 @@ INSON:
 	    	RESETCUR
 	JMP		KE
 K5:
-	CMP		AH,4DH		;¬ORIGHTARROWÁä?
-	JNE		K6			;¤£¬O,¸õ¨ìK6
+	CMP		AH,4DH		;æ˜¯RIGHTARROWéµ?
+	JNE		K6			;ä¸æ˜¯,è·³åˆ°K6
 	    	RIGHTARROW 
 	JMP		KE
 K6:
-	CMP		AH,4BH		;¬OLEFTARROWÁä?
-	JNE		K7			;¤£¬O,¸õ¨ìK7
+	CMP		AH,4BH		;æ˜¯LEFTARROWéµ?
+	JNE		K7			;ä¸æ˜¯,è·³åˆ°K7
 	    	LEFTARROW
 	JMP		KE
 K7:
-	CMP		AH,48H		;¬OUPARROWÁä?
-	JNE		K8			;¤£¬O,¸õ¨ìK8
-	CMP		DH,00H		;¦b¥\¯àÁä¤W¤£¯à©¹¤W
+	CMP		AH,48H		;æ˜¯UPARROWéµ?
+	JNE		K8			;ä¸æ˜¯,è·³åˆ°K8
+	CMP		DH,00H		;åœ¨åŠŸèƒ½éµä¸Šä¸èƒ½å¾€ä¸Š
 	JE		K8
-	CMP		DH,02H		;¦b¤º®e³Ì¤W¤£¯à©¹¤W
+	CMP		DH,02H		;åœ¨å…§å®¹æœ€ä¸Šä¸èƒ½å¾€ä¸Š
 	JE		K8
 	    	UPARROW
 	JMP		KE
 K8:
-	CMP		AH,50H		;¬ODOWNARROWÁä?
-	JNE		KE			;¤£¬O,¸õ¨ìKE
-	CMP		DH,00H		;¦b¥\¯àÁä¤U¤£¯à©¹¤U
+	CMP		AH,50H		;æ˜¯DOWNARROWéµ?
+	JNE		KE			;ä¸æ˜¯,è·³åˆ°KE
+	CMP		DH,00H		;åœ¨åŠŸèƒ½éµä¸‹ä¸èƒ½å¾€ä¸‹
 	JE		KE
-	CMP		DH,16H		;¦b¤º®e³Ì¤U¤£¯à©¹¤U
+	CMP		DH,16H		;åœ¨å…§å®¹æœ€ä¸‹ä¸èƒ½å¾€ä¸‹
 	JE		KE
 	    	DOWNARROW
 	JMP		KE
 KK:
-	CMP		AL,1BH		;¬O1B?
-	JE		KK1			;¬O ÀË¬dAH¬O¤°»òÁä
-	JNE		KBS			;¤£¬O Ä~ÄòÀË¬dAL
+	CMP		AL,1BH		;æ˜¯1B?
+	JE		KK1			;æ˜¯ æª¢æŸ¥AHæ˜¯ä»€éº¼éµ
+	JNE		KBS			;ä¸æ˜¯ ç¹¼çºŒæª¢æŸ¥AL
 KK1:
-	CMP		AH,01H		;¬OESCÁä?
-	JNE		KE			;¤£¬O,¸õ¨ìKE
+	CMP		AH,01H		;æ˜¯ESCéµ?
+	JNE		KE			;ä¸æ˜¯,è·³åˆ°KE
 
 
-	CMP		ESC1,00H	;§PÂ_ESC1¬O§_¬°0
-	JNE		EE			;¤£¬O00H¡A¸õ¨ìEE
+	CMP		ESC1,00H	;åˆ¤æ–·ESC1æ˜¯å¦ç‚º0
+	JNE		EE			;ä¸æ˜¯00Hï¼Œè·³åˆ°EE
 	INC		ESC1
 	MOV		FUN,30H		;copy
 ;	    	PRINTFUN
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,00		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È	
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,00		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™	
 	MOV		AH,09H
-	MOV		AL,'C'		;Åã¥Ü
+	MOV		AL,'C'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	MOV		CX,01		;	
 	INT		10H
 
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,01		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,01		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'o'		;Åã¥Ü
+	MOV		AL,'o'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,02		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,02		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'p'		;Åã¥Ü
+	MOV		AL,'p'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
 
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,00		;¦C
-	MOV		DL,03		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,00		;åˆ—
+	MOV		DL,03		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	MOV		AH,09H
-	MOV		AL,'y'		;Åã¥Ü
+	MOV		AL,'y'		;é¡¯ç¤º
 	MOV		BH,00		;
 	MOV		BL,70H		;
 	INT		10H
@@ -1000,24 +1000,24 @@ FFE:
 	JMP		KE
 
 KBS:
-	CMP		AL,08H		;¬O08? 
+	CMP		AL,08H		;æ˜¯08? 
 	JE		KBS1
 	JNE		EN
 KBS1:
-	CMP		AH,0EH		;¬OBACKSPACEÁä?
+	CMP		AH,0EH		;æ˜¯BACKSPACEéµ?
 
-	JNE		KE			;¤£¬O,¸õ¨ìKE
-	CMP		DH,00H		;¦b¥\¯àÁä®É¤£¯à¨Ï¥Î
+	JNE		KE			;ä¸æ˜¯,è·³åˆ°KE
+	CMP		DH,00H		;åœ¨åŠŸèƒ½éµæ™‚ä¸èƒ½ä½¿ç”¨
 	JE		KE
 	    	BACKSPACE
 	JMP		KE
 EN:
-	CMP		AL,0DH		;¬O0D? 
+	CMP		AL,0DH		;æ˜¯0D? 
 	JE		EN1
 	JNE		KE
 EN1:
-	CMP		AH,1CH		;¬OENTERÁä?
-	JNE		KE			;¤£¬O,¸õ¨ìKE
+	CMP		AH,1CH		;æ˜¯ENTERéµ?
+	JNE		KE			;ä¸æ˜¯,è·³åˆ°KE
 	    	ENTERR
 	JMP		KE
 KE:
@@ -1025,8 +1025,8 @@ KE:
 ENDM
 ;----------------------------------------------------
 INPUT		MACRO
-	    	KEY			;Åª¨úÁä½L¥\¯à
-	MOV		AH,10H		;­n¨DÁä½L¿é¤J
+	    	KEY			;è®€å–éµç›¤åŠŸèƒ½
+	MOV		AH,10H		;è¦æ±‚éµç›¤è¼¸å…¥
 	INT		16H
 	    	PTEXT
 	MOV		[SI],AL		;
@@ -1037,54 +1037,54 @@ ENDM
 ;----------------------------------------------------------------------
 RESETSC		MACRO
 	MOV		AH,06H		;
-	MOV		AL,00H		;±²°Ê¦æ¼Æ:¥þ¿Ã¹õ
-	MOV		BH,07H		;ÃC¦â¶Â©³¥Õ¦r
-	MOV		CX,0200H	;±q0¦C
-	MOV		DX,164FH	;¨ì24:79
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AL,00H		;æ²å‹•è¡Œæ•¸:å…¨èž¢å¹•
+	MOV		BH,07H		;é¡è‰²é»‘åº•ç™½å­—
+	MOV		CX,0200H	;å¾ž0åˆ—
+	MOV		DX,164FH	;åˆ°24:79
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	 
 ENDM
 ;----------------------------------------------------------------------
 NEWCURSOR	MACRO	
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,02		;¦C
-	MOV		DL,00		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,02		;åˆ—
+	MOV		DL,00		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	 
 ENDM
 ;-----------------------------------------------------------------------
 DISPLAY		MACRO
-	MOV		AH,09H		;¿é¥X¦r¦ê¨ì¿Ã¹õ¡A­nÅã¥Üªº¦r¦ê¥²¶·¥H¡u$¡vµ²§ô
-	;LEA	DX,STR_A	;Åã¥Ü¦r¦ê
-	INT		21H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,09H		;è¼¸å‡ºå­—ä¸²åˆ°èž¢å¹•ï¼Œè¦é¡¯ç¤ºçš„å­—ä¸²å¿…é ˆä»¥ã€Œ$ã€çµæŸ
+	;LEA	DX,STR_A	;é¡¯ç¤ºå­—ä¸²
+	INT		21H			;å‘¼å«å²”æ–·æœå‹™
 ENDM
 ;-----------------------------------------------------------------------
 RESETCUR	MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,TEXT_R	;¦C
-	MOV		DL,TEXT_C	;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,TEXT_R	;åˆ—
+	MOV		DL,TEXT_C	;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	 
 ENDM
 ;----------------------------------------------------------------------
 ENDCUR		MACRO
-	MOV		AH,02H		;­n¨D³]©w´å¼Ð
-	MOV		BH,00		;­¶­±½s¸¹0
-	MOV		DH,23		;¦C
-	MOV		DL,00		;¦æ
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AH,02H		;è¦æ±‚è¨­å®šæ¸¸æ¨™
+	MOV		BH,00		;é é¢ç·¨è™Ÿ0
+	MOV		DH,23		;åˆ—
+	MOV		DL,00		;è¡Œ
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 	 
 ENDM
 ;----------------------------------------------------------------------
 CLEAR	MACRO
 	MOV		AH,06H		;
-	MOV		AL,00H		;±²°Ê¦æ¼Æ:¥þ¿Ã¹õ
-	MOV		BH,07H		;ÃC¦â¶Â©³¥Õ¦r
-	MOV		CX,0000H	;±q0¦C
-	MOV		DX,184FH	;¨ì24:79
-	INT		10H			;©I¥s§ÃÂ_ªA°È
+	MOV		AL,00H		;æ²å‹•è¡Œæ•¸:å…¨èž¢å¹•
+	MOV		BH,07H		;é¡è‰²é»‘åº•ç™½å­—
+	MOV		CX,0000H	;å¾ž0åˆ—
+	MOV		DX,184FH	;åˆ°24:79
+	INT		10H			;å‘¼å«å²”æ–·æœå‹™
 ENDM
 ;-----------------------------------------------------------------------
 STACK	  SEGMENT	PARA	STACK	'Stack'
@@ -1146,36 +1146,36 @@ DATASEG	ENDS
 CODESEG	  SEGMENT	PARA	'Code'
 MAIN	PROC 	  FAR
 	ASSUME SS:STACK,CS:CODESEG,DS:DATASEG,ES:DATASEG
-	MOV		AX, DATASEG	;¨ú¥X .data ªºsegment¡A¦s¤J AX
+	MOV		AX, DATASEG	;å–å‡º .data çš„segmentï¼Œå­˜å…¥ AX
 	MOV		DS,AX		;
 	MOV		ES,AX		;
 
-	CLEAR		;²M°£¥þ³¡
+	CLEAR		;æ¸…é™¤å…¨éƒ¨
 
 	
-	RESETCUR	;³]´å¼Ð0,0
+	RESETCUR	;è¨­æ¸¸æ¨™0,0
 
 	MOV		TEXT_R,02H
 
 	LEA		DX,SET1		;
 	DISPLAY		;
 
-	ENDCUR		;³]´å¼Ð23,0
+	ENDCUR		;è¨­æ¸¸æ¨™23,0
 	
 	LEA		DX,SET3		;
 	DISPLAY		;	
 	
-	NEWCURSOR	;³]´å¼Ð2,0
+	NEWCURSOR	;è¨­æ¸¸æ¨™2,0
 
 	LEA		SI,TEXT
 A10:
 
-	INPUT		;­n¨DÁä½L¿é¤J
-;	    	NUMLOCK		;¦^¶ÇÁä½LNUMLOCKª¬ºA   ³o»yªk¦³°ÝÃD ©ÇQ___Q
-	JMP		A10			;µL­­¿é¤J¤º®e
+	INPUT		;è¦æ±‚éµç›¤è¼¸å…¥
+;	    	NUMLOCK		;å›žå‚³éµç›¤NUMLOCKç‹€æ…‹   é€™èªžæ³•æœ‰å•é¡Œ æ€ªQ___Q
+	JMP		A10			;ç„¡é™è¼¸å…¥å…§å®¹
 
 	
 MAIN	ENDP
-;-----------------------------------------------------------------------
+;-----------------------------------å¯«å¾—æˆ‘å¿ƒå¥½ç´¯5555555------------------------------------
 CODESEG	ENDS
 	END	  MAIN
